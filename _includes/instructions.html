@@ -1,0 +1,39 @@
+<h2>Introduction</h2>
+
+<p>The Open Source Chess Game is played via Github with pull requests. Anyone
+can propose or vote on a move for either black or white. The move with the most
+up-votes (less down-votes) will be merged and all other pull requests for that
+turn will be closed. The exact schedule of merging moves is not fixed until I
+find out what works well.
+
+<h2>Proposing moves</h2>
+
+<p>To propose a move:</p>
+
+<ol>
+  <li>Clone <a href="https://github.com/jrmhaig/Open_Source_Chess">this
+      repository</a></li>
+  <li>Edit the file <tt>CURRENT_GAME.pgn</tt> with your propsed move</li>
+  <li>Create a pull request with the title in the format:
+    <ul>
+      <li>[White] 5. Bd4</li>
+      <li>[Black] 12. .. Qxa5</li>
+    </ul>
+  </li>
+  <li>Optionally add comments in the description</li>
+  <li>Optionally(?) up-vote the pull request</li>
+</ol>
+
+<p><em>Note:</em> Any pull requests for a move that change any file other than
+<tt>CURRENT_GAME.pgn</tt> will be closed automatically irrespective of how many
+votes it has so don't do it or you may cause the best move to be missed!</p>
+
+<h2>Voting on moves</h2>
+
+<p>To vote for a move simple give a 'thumbs up' to the pull request. Note that
+only votes on the pull request itself, underneath the description, will be
+counted and any votes on subsequent comments will be ignored. Analysis on moves
+as well as reactions to this analysis is encouraged but this will not be
+considered when selecting which move to merge. You may also give a 'thumbs
+down' to a move you consider to be bad. All other emoji responses will be
+ignored.</p>
