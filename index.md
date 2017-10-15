@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-  <div id="board" style="width: 400px"></div>
+  <div id="board"></div>
   <pre id="moves"></pre>
 
   <script>
